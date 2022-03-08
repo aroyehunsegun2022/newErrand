@@ -1,0 +1,163 @@
+.er__errandersignform{
+    padding: 5rem 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.er__errandersignform-content {
+    padding: 6rem 2rem;
+}
+
+.er__errandersignform-content h1{
+    font-size: 50px;
+}
+
+.er__errandersignform-content p{
+    font-size: 22px;
+}
+
+.er__errandersignform-form form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+}
+
+input{
+    padding: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    font-size: 20px;
+    /* line-height: 21px; */
+    color: #000;
+    background-color: inherit;
+    word-spacing: 2px;
+    /* width: 65%; */
+    text-align: left;
+}
+
+.signupbtn1{
+    padding: 0.5rem 1rem;
+    background: #f5c10b;
+    color: #000;
+    font-weight: 800;
+    /* font-size: 40px; */
+    line-height: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.er__errandersignform-form p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.er__errandersignform-form h3{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px){
+    .er__errandersignform{
+        padding: 5rem 3rem;
+    }
+
+    .er__errandersignform-content {
+        padding: 6rem 1rem;
+    }
+    
+    .er__errandersignform-content h1{
+        font-size: 45px;
+    }
+    
+    .er__errandersignform-content p{
+        font-size: 20px;
+    }
+
+    .er__errandersignform-form form{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .er__errandersignform{
+        padding: 3rem 6rem;
+        flex-direction: column;
+    }
+
+    .er__errandersignform-content {
+        padding: 6rem 1rem;
+    }
+    
+    .er__errandersignform-content h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .er__errandersignform{
+        padding: 3rem 2rem;
+        flex-direction: column;
+    }
+
+    .er__errandersignform-content {
+        padding: 4rem 1rem;
+    }
+    
+    .er__errandersignform-content h1{
+        font-size: 35px;
+    }
+
+    .er__errandersignform-content p{
+        font-size: 16px;
+    }
+
+    .er__errandersignform-form form{
+        padding: 1rem;
+    }
+
+    .er__errandersignform-form p{
+        font-size: 13px;
+    }
+    
+    .er__errandersignform-form h3{
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width:400px){
+    .er__errandersignform{
+        padding: 3rem 1rem;
+    }
+
+    .er__errandersignform-content {
+        padding: 4rem 1rem 2rem;
+    }
+    
+    .er__errandersignform-content h1{
+        font-size: 30px;
+    }
+
+    .er__errandersignform-content p{
+        font-size: 14px;
+    }
+
+    .er__errandersignform-form form{
+        padding: 0rem 1rem 1rem;
+    }
+
+    .er__errandersignform-form p{
+        font-size: 13px;
+    }
+    
+    .er__errandersignform-form h3{
+        font-size: 22px;
+        font-weight: 800;
+    }
+}

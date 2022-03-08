@@ -1,0 +1,238 @@
+.er__footer{
+    padding: 4rem 6rem;
+    background: #D8D8D8 ;
+}
+
+.er__footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* width: 100%;
+    text-align: left; */
+}
+.product, .company{
+    flex: 1;
+}
+
+.community{
+    flex: 1;
+    margin-left: 15rem;
+}
+
+.products h4, .company h4, .community h4{
+    font-size: 25px;
+    line-height: 16px;
+    margin-bottom: 1rem;
+}
+
+.products p, .company p, .community p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0.5rem 0;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .apps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gstore{
+    flex: 1;
+}
+
+.astore{
+    flex: 1;
+}
+
+.apps .er__applestore{
+    padding: 0;
+    width: 70%;
+}
+
+.apps .er__applestore img{
+    width: 50px;
+    height: 50px;
+} */
+
+/* .apps .er__content p{
+    font-size: 19px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.apps .er__content h4{
+    font-size: 23px;
+}
+
+.apps .er__googlestore{
+    padding: 0.7rem 0;
+    width: 70%;
+} */
+
+.apps .er__googlestore p{
+    font-size: 12px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.apps .er__googlestore img{
+    width: 50px;
+    height: 50px;
+}
+
+.apps .er__googlestore h6{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.help-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.help-center img{
+    width: 50px;
+    height: 50px;
+}
+
+.copyright{
+    display: flex;
+    margin-top: 10rem;
+}
+
+.copy{
+    flex: 1;
+}
+
+.useful-links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vert{
+    border-left: 2px solid #000;
+    height: 17px;
+}
+
+@media screen and (max-width:800px){
+    .community{
+        flex: 1;
+        margin-left: 5rem;
+    }
+
+    .community h4{
+        line-height: 25px;
+    }
+
+    .apps .er__applestore{
+        padding: 0;
+        margin-top: 1rem;
+    }
+    
+    /* .apps .er__applestore img{
+        width: 50px;
+        height: 50px;
+    } */
+    
+    /* .apps .er__content p{
+        font-size: 19px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .apps .er__content h4{
+        font-size: 23px;
+    } */
+    
+    .apps .er__googlestore{
+        padding: 0.7rem 0;
+        width: 100%;
+    }
+
+    .apps .er__googlestore p{
+        font-size: 12px;
+        font-weight: 900;
+        margin-right: 10px;
+    }
+    
+    .apps .er__googlestore img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .apps .er__googlestore h6{
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 10px;
+    }
+
+    .vert{
+        border-left: 2px solid #000;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .er__footer{
+        padding: 4rem 2rem;
+    }
+
+    .community{
+        flex: 1;
+        margin-left: 0;
+    }
+
+    .community, .products{
+        margin-top: 1rem;
+    }
+
+    .er__footer-links{
+        flex-direction: column;
+    }
+
+    .apps .er__content p{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 5rem;
+    }
+    
+    /* .copy{
+        flex: 1;
+    } */
+    
+    .useful-links{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .useful-links p{
+        margin-right: 1rem;
+    }
+}
+
+
+

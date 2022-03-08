@@ -1,0 +1,125 @@
+/* .er__eacherrandee{
+    padding: 3rem 0rem;
+}
+
+.er__eacherrandee-container{
+    background-color: #f2f2f2;
+    padding: 2rem;
+    max-width: 350px;
+}
+
+.er__eacherrandee-container-each-errdetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.er__eacherrandee-container-top-info{
+    display: flex;
+}
+
+.er__eacherrandee-container-top-info-profile{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.er__eacherrandee-container-top-info-deets h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-top-info-deets p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-top-info-deets span{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-top-info-deets .phone{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.chatbtn, .hirebtn{
+    padding: 0rem 0.5rem;
+    background-color: #f5c10b;
+    font-size: 12px;
+    font-weight: 700px;
+    border-radius: 5px;
+    border: none;
+}
+
+.er__eacherrandee-container-bottom-reviewss{
+    display: flex;
+    margin-top: 1rem;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+
+.er__eacherrandee-container-bottom-reviews-profile-pic-pic{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 40px;
+}
+
+
+.er__eacherrandee-container-bottom-reviews-content-cont{
+    margin-left: 5px;
+}
+
+.er__eacherrandee-container-bottom-reviews-content-cont h6{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-bottom-reviews-content-cont p{
+    font-size: 11px;
+    margin-bottom: 0;
+    
+}
+
+@media screen and (max-width:1100px){
+    .er__eacherrandee-container{
+        padding: 1rem;
+        max-width: 300px;
+    }
+
+    .er__eacherrandee-container-top-info-profile{
+        width: 90px;
+        height: 90px;
+        margin-right: 10px;
+    }
+    
+    
+    .er__eacherrandee-container-top-info-deets h5{
+        font-size: 20px;
+    }
+    
+    .er__eacherrandee-container-top-info-deets span{
+        font-size: 12px;
+    }
+    
+    .er__eacherrandee-container-top-info-deets .phone{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .er__eacherrandee-container-bottom-reviews-profile-pic-pic{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        border-radius: 30px;
+    }
+    
+} */

@@ -1,0 +1,154 @@
+.er__signinform{
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.er__signinform-logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.er__signinform-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;
+    justify-content: center; */
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    background: #f5c10b;
+    color: #000;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    /* margin-bottom: 2rem; */
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.other-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.faang{
+    display: flex;
+    flex-direction: row;
+}
+
+.faang p{
+    font-size: 17px;
+    font-weight: 300;
+    margin-right: 1rem;
+}
+
+.have{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+ .other-links a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1100px){
+    .er__signinform{
+        padding: 4rem 3rem;
+    }
+
+    .er__signinform-logo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn{
+        font-size: 19px;
+    }
+
+    .other-links{
+        font-size: 15px;
+    }
+
+    .faang p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .er__signinform{
+        padding: 4rem 1rem;
+    }
+
+    .er__signinform-logo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .er__signinform-form{
+        width: 60%;
+    }
+
+    .btn{
+        font-size: 16px;
+    }
+
+    .other-links{
+        font-size: 14px;
+    }
+
+    .faang p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .er__signinform{
+        padding: 4rem 1rem;
+    }
+
+    .er__signinform-logo img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .er__signinform-form{
+        width: 80%;
+    }
+
+
+    .other-links{
+        font-size: 12px;
+    }
+
+    .faang p{
+        font-size: 12px;
+    }
+
+    .have{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .btn{
+        font-size: 14px;
+    }
+}

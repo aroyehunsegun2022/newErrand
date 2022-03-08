@@ -1,0 +1,106 @@
+.er__download{
+    display: flex;
+    padding: 4rem 6rem;
+    background: #f5c10b;
+}
+
+.er__download-message{
+    flex: 2;
+    padding: 1rem;
+}
+
+.er__download-message h2{
+    font-size: 50px;
+}
+
+.er__download-message p{
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 1rem;
+}
+
+.er__download-platforms{
+    flex: 1;
+    padding: 1rem 3rem;
+}
+
+@media screen and (max-width:1050px){
+    .er__download{
+        padding: 4rem 3rem;
+    }
+
+    .er__download-message h2{
+        font-size: 40px;
+    }
+    
+    .er__download-message p{
+        font-size: 25px;
+        /* line-height: 40px;
+        margin-top: 1rem; */
+    }
+}
+
+@media screen and (max-width:800px){
+    .er__download{
+        flex-direction: column;
+        padding: 4rem 5rem;
+    }
+
+    .er__download-message h2{
+        font-size: 37px;
+    }
+    
+    .er__download-message p{
+        font-size: 20px;
+        /* line-height: 40px;
+        margin-top: 1rem; */
+    }
+
+    .er__download-platforms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex: 1;
+        padding: 1rem 3rem; */
+    }
+}
+
+@media screen and (max-width:500px){
+    .er__download{
+        flex-direction: column;
+        padding: 4rem 3rem;
+    }
+
+    .er__download-message h2{
+        font-size: 25px;
+    }
+    
+    .er__download-message p{
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+    .er__download-platforms{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 1rem;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .er__download{
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .er__download-message h2{
+        font-size: 22px;
+    }
+    
+    .er__download-message p{
+        font-size: 16px;
+    }
+}

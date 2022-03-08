@@ -1,0 +1,80 @@
+.er__googlestore{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1.5rem 0;
+    justify-content: center;
+}
+
+.er__googlestore p{
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.er__googlestore img{
+    width: 60px;
+    height: 60px;
+}
+
+.er__googlestore h6{
+    font-size: 32px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1050px){
+    .er__googlestore{
+        padding: 1.5rem 1rem;
+    }
+    
+    .er__googlestore p{
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    
+    .er__googlestore img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .er__googlestore h6{
+        font-size: 25px;
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .er__googlestore{
+        padding: 1.5rem 1rem;
+        margin-right: 1rem;
+    }
+
+    .er__googlestore img{
+        width: 30px;
+        height: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width:500px){
+    .er__googlestore p{
+        font-size: 13px;
+        font-weight: 900;
+        margin-right: 2px;
+    }
+    
+    .er__googlestore img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .er__googlestore h6{
+        font-size: 19px;
+        font-weight: 900;
+        margin-left: 2px;
+    }
+}

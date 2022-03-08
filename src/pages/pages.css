@@ -1,0 +1,161 @@
+.er__signup{
+    padding: 8rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.er_errander, .er_errandee, .er_artisan{
+    margin-bottom: 3rem;
+}
+
+.er__dashboard{
+    padding: 4rem;
+    background: url("../assets/people.jpg"), linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.er__errandpages{
+    padding: 4rem 3rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    background: url("../assets/map.png");
+    /* background: url("../assets/people.jpg"), linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    background-size: cover;
+    background-blend-mode: overlay; */
+}
+
+.er__errandpages-formbody{
+    background-color: #f2f2f2;
+}
+
+.form-title{
+    background: #d8d8d8;
+    padding: 0.5rem 6rem;
+}
+
+.form-title h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.form-field{
+    padding: 1rem 0rem;
+}
+
+.form-field .er__indoorform-input button, .form-field .er__errandform-inputs button{
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* .er__errandpages .er__indoorform{
+    padding: 0rem 3rem;
+} */
+
+.er__outdoorlocation{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 4rem 6rem;
+    background: url("../assets/map.png");
+}
+
+@media screen and (max-width:1100px){
+    .er__dashboard{
+        padding: 4rem 2rem;
+    }
+
+    .er__errandpages{
+        padding: 4rem 1rem;
+    }
+
+    .form-title{
+        padding: 0.5rem 4rem;
+    }
+    
+    .form-title h2{
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .form-field{
+        padding: 1rem 0rem;
+    }
+    
+    .form-field .er__indoorform-input button, .form-field .er__errandform-inputs button{
+        width: 60%;
+        margin: auto;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .er__errandpages{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 1rem;
+    }
+
+    .form-title{
+        padding: 0.5rem 6rem;
+    }
+    
+    .form-title h2{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width:500px){
+    /* .er__errandpages{
+        padding: 4rem 2rem;
+    } */
+
+    .form-title{
+        padding: 0.5rem 3rem;
+    }
+    
+    .form-title h2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    .form-field .er__indoorform-input button, .form-field .er__errandform-inputs button{
+        width: 50%;
+        margin: auto;
+        border-radius: 10px;
+        font-size: 17px;
+    }
+
+    .form-field h3{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:400px){
+     .er__errandpages{
+        padding: 4rem 0rem;
+    }
+
+    .form-title{
+        padding: 0.5rem 2rem;
+    }
+    
+    .form-title h2{
+        font-size: 30px;
+    }
+    
+    .form-field{
+        padding: 1rem 0rem;
+    }
+    
+    .form-field .er__indoorform-input button, .form-field .er__errandform-inputs button{
+        width: 60%;
+        font-size: 15px;
+    }
+}

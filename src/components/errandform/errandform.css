@@ -1,0 +1,71 @@
+.er__errandform-inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 0;
+    color: rgb(182, 181, 181);
+    
+}
+
+.er__errandform-inputs .location{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: inherit;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 55%;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(182, 181, 181);
+    /* margin: auto; */
+}
+
+.er__errandform-inputs .description{
+    padding: 2rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    /* font-size: 32px;
+    line-height: 21px; */
+    color: #000;
+    background-color: inherit;
+    word-spacing: 2px;
+    width: 65%;
+}
+
+.er__errandform-inputs button{
+    background: #f5c10b;
+    padding: 0.8rem 3rem;
+    color: #000;
+    font-weight: 500;
+    /* font-family: poppinsreg; */
+    font-size: 20px;
+    /* line-height: 25px; */
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:800px){
+    .er__errandform{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .er__errandform-inputs .location{
+        width: 65%;
+        font-size: 15px;
+    }
+    
+    .er__errandform-inputs .description{
+        width: 70%;
+        padding: 1.5rem;
+    }
+}

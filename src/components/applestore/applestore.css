@@ -1,0 +1,91 @@
+.er__applestore{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1rem 0;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.er__applestore img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.er__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.er__content p{
+    font-size: 27px;
+    /* margin-bottom: 5px; */
+    font-weight: 500;
+}
+
+.er__content h4{
+    font-size: 37px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1050px){
+    .er__applestore{
+        padding: 1rem;
+    }
+
+    .er__applestore img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .er__content p{
+        font-size: 19px;
+        /* margin-bottom: 5px; */
+    }
+    
+    .er__content h4{
+        font-size: 29px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .er__applestore{
+        padding: 0.7rem 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .er__applestore{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    .er__applestore{
+        margin-top: 1rem;
+    }
+
+    .er__applestore img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .er__content p{
+        font-size: 17px;
+        /* margin-bottom: 5px; */
+        font-weight: 500;
+    }
+    
+    .er__content h4{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}

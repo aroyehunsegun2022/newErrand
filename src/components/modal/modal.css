@@ -1,0 +1,246 @@
+.modalBackground {
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    /* position: fixed; */
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+  }
+  
+  .modalContainer {
+    width: 350px;
+    height: 400px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow-y: scroll;
+  }
+  
+  /* .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  } */
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    /* flex: 50%; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* font-size: 1.7rem; */
+    /* text-align: center; */
+  }
+  
+  .modalContainer .footer {
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    /* width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer; */
+    padding: 0.5rem 1rem;
+    background-color: #f5c10b;
+    font-size: 12px;
+    font-weight: 700px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* #cancelBtn {
+    background-color: crimson;
+  } */
+
+
+
+.er__eacherrandee-container-each-errdetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.er__eacherrandee-container-top-info{
+    display: flex;
+}
+
+.er__eacherrandee-container-top-info-profile{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .er__sidebar-container-top-info-profile img{
+    width: 100px;
+    height: 100px;
+} */
+
+.er__eacherrandee-container-top-info-deets h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-top-info-deets p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-top-info-deets .numerr{
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.er__eacherrandee-container-top-info-deets .phone{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+.chatbtn, .hirebtn{
+    padding: 0rem 0.5rem;
+    background-color: #f5c10b;
+    font-size: 12px;
+    font-weight: 700px;
+    border-radius: 5px;
+    border: none;
+    /* margin-bottom: -1; */
+}
+
+.er__eacherrandee-container-bottom-reviewss{
+    display: flex;
+    margin-top: 1rem;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+/* .er__eacherrandee-container-bottom-reviews h4{
+    font-size: 22px;
+} */
+
+.er__eacherrandee-container-bottom-reviews-profile-pic-pic{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 40px;
+}
+
+/* .er__eacherrandee-container-bottom-reviewss-profile-pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+} */
+
+.er__eacherrandee-container-bottom-reviews-content-cont{
+    margin-left: 5px;
+}
+
+.er__eacherrandee-container-bottom-reviews-content-cont h6{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.er__eacherrandee-container-bottom-reviews-content-cont p{
+    font-size: 11px;
+    margin-bottom: 0;
+    
+}
+
+@media screen and (max-width:1100px){
+    .er__eacherrandee-container{
+        padding: 1rem;
+        max-width: 300px;
+    }
+
+    .er__eacherrandee-container-top-info-profile{
+        width: 90px;
+        height: 90px;
+        margin-right: 10px;
+    }
+    
+    /* .er__sidebar-container-top-info-profile img{
+        width: 90px;
+        height: 90px;
+    } */
+    
+    .er__eacherrandee-container-top-info-deets h5{
+        font-size: 20px;
+    }
+    
+    .er__eacherrandee-container-top-info-deets span{
+        font-size: 12px;
+    }
+    
+    .er__eacherrandee-container-top-info-deets .phone{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .er__eacherrandee-container-bottom-reviews-profile-pic-pic{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        border-radius: 30px;
+    }
+    
+    /* .er__eacherrandee-container-bottom-reviewss-profile-pic img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    } */
+    
+}
+
+@media screen and (max-width:800px){
+    
+    .modalBackground {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        /* position: fixed;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; */
+      }
+      
+      .modalContainer {
+        width: 300px;
+        height: 350px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        overflow-y: scroll;
+      }
+}
