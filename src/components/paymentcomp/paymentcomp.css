@@ -1,0 +1,54 @@
+.er__paymentcomp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.er__paymentcomp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.paycash, .paywith-wallet{
+    margin-bottom: 2rem;
+}
+.paycash a{
+    padding: 0.7rem 2rem;
+    font-size: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.paywith-wallet a{
+    padding: 0.7rem 0.5rem;
+    font-size: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.firstbtn{
+    margin-bottom: 5rem;
+}
+.firstbtn, .secondbtn{
+    padding: 0.7rem 2rem;
+    background-color: #f5c10b;
+    font-size: 19px;
+    font-weight: 400px;
+    /* border-radius: 5px; */
+    border: none;
+    text-transform: uppercase;
+}
+
+.thirdbtn{
+    background-color: inherit;
+    border: none;
+    font-size: 19px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}

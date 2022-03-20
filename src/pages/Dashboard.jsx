@@ -1,5 +1,6 @@
 import React from 'react'
-import { Navbar, Sidebar } from "../components"
+import { Navbar, Sidebar, History } from "../components"
+import { Wallet } from "../containers"
 
 const Dashboard = () => {
   return (
@@ -7,6 +8,8 @@ const Dashboard = () => {
         <Navbar />
         <div className='er__dashboard'>
             <Sidebar />
+            {/* <History /> */}
+            <Wallet />
         </div>
     </div>
   )
