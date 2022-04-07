@@ -1,0 +1,29 @@
+.er__withcard{
+    padding: 5rem 3rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+.er__withcard h1{
+    font-size: 40px;
+    text-align: center;
+}
+.top_amount{
+    border: 1px solid #d8d8d8;
+    padding: 1rem 2rem;
+    text-align: left;
+    border-radius: 10px;
+}
+.top_amount::placeholder{
+    color: grey;
+}
+.er__withcard button{
+    padding: 0.5rem 0;
+    background-color: #f5c105;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+}

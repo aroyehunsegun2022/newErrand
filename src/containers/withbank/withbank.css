@@ -1,0 +1,26 @@
+.er__withbank{
+    padding: 5rem 3rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+.er__withbank-card{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.er__withbank-card h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+.er__withbank p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 1rem;
+    color: #d8d8d8;
+}
+.er__withbank h1{
+    font-size: 40px;
+    text-align: center;
+}

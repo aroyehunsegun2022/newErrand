@@ -7,3 +7,5 @@ export { default as Errandersignupform } from "./errandersignupform/Errandersign
 export { default as Signinform } from "./signinform/Signinform"
 export { default as Selecterrandees } from "./selecterrandees/Selecterrandees"
 export { default as Wallet } from "./wallet/Wallet"
+export { default as Withbank } from "./withbank/Withbank"
+export { default as Withcard } from "./withcard/Withcard"

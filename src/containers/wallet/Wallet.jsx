@@ -1,23 +1,18 @@
-import React from 'react'
-import { Creditcard } from "../../components"
+import React, { useState } from 'react'
+import { Creditcard, Walletmodal } from "../../components"
 import "./wallet.css"
 
 const Wallet = () => {
+  const [walletmodalOpen, setWalletmodalOpen] = useState(false);
   return (
     <div className='er__wallet'>
+    {walletmodalOpen && <Walletmodal setOpenModal={setWalletmodalOpen} />}
         <div className='er__wallet-container'>
-            <div className='top'>
-                <h2>Cards</h2>
-                <h2>Bank</h2>
-            </div>
-            <hr />
-            <div className='middle'>
-                <Creditcard />
-                <Creditcard />
-                <Creditcard />
-            </div>
-            <button>top up wallet</button>
+                <Creditcard name='Top up wallet' onclick={() => {setWalletmodalOpen(true);}} />
+                <Creditcard name='Transfer to wallet' />
+                <Creditcard name='Transfer to bank' />
         </div>
+        <div></div>
     </div>
   )
 }

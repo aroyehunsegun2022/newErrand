@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Home, Signup, Errandersignup, Signinpage, Dashboard, Indoorpage, Outdoorpage, Artisanpage, Outdoorlocation, Payment, Paymentsuccess } from "./pages"
+import { Home, Signup, Errandersignup, Signinpage, Dashboard, Indoorpage, Outdoorpage, Artisanpage, Outdoorlocation, Payment, Paymentsuccess, Paywithbank, Paywithcard } from "./pages"
 // import { Footer, Why, OurProcess, Whatwedo, Hero, OurProducts } from "./containers"
 // import { Call, Brand, Navbar } from "./components"
 import "./App.css"
@@ -21,6 +21,8 @@ const App = () => {
                     <Route exact path="/location" element={<Outdoorlocation />}/>
                     <Route exact path="/payment" element={<Payment />}/>
                     <Route exact path="/paymentsuccess" element={<Paymentsuccess />}/>
+                    <Route exact path="/paywithbank" element={<Paywithbank />}/>
+                    <Route exact path="/paywithcard" element={<Paywithcard />}/>
                     {/* <Route exact path="/test" element={<Test />}/> */}
                 </Routes>
             </Router>

@@ -1,0 +1,13 @@
+.er__wallet{
+    padding: 10rem 3rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+
+.er__wallet-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
